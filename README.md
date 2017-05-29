@@ -6,7 +6,7 @@ The file rename.py takes all bottom level files in ShapeNetCore.v2 and renames t
 
 1. Download ShapeNetCore.v2
 2. Extract and cd into ShapeNetCore.v2 folder
-3. clone this repository in that folder
+3. Clone this repository in that folder
 4. Create file shapenet_models in your Downloads folder
 4. Modify these lines in rename.py :
 ```python
