@@ -14,6 +14,6 @@ directory = '~/Downloads/ShapeNetCore.v2/'
 dest = os.path.join("~/Downloads/shapenet_models")
 ```
 6. Download the metadata files from ShapeNet (you will find a few .csv files for the metadata that I have used already)
-7. Paste special into a spreadsheet and make comma separated so (like the csv files here) 
-8. Make sure that the names dont have any difficult to handle characters
+7. Paste special into a spreadsheet and make comma separated (like the csv files here) 
+8. Make sure that the names dont have any difficult to handle characters (e.g. "/")
 9. Run with > python rename.py: This should rename all files and copy the obj and mtl across to the `/shapenet_models` folder
